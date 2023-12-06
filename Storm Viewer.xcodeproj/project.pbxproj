@@ -13,6 +13,16 @@
 		A1423DD22B2102D900418A10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1423DD02B2102D900418A10 /* Main.storyboard */; };
 		A1423DD42B2102DA00418A10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1423DD32B2102DA00418A10 /* Assets.xcassets */; };
 		A1423DD72B2102DA00418A10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1423DD52B2102DA00418A10 /* LaunchScreen.storyboard */; };
+		A1423DFE2B210C4B00418A10 /* nssl0049.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1423DF42B210C4B00418A10 /* nssl0049.jpg */; };
+		A1423DFF2B210C4B00418A10 /* nssl0046.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1423DF52B210C4B00418A10 /* nssl0046.jpg */; };
+		A1423E002B210C4B00418A10 /* nssl0091.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1423DF62B210C4B00418A10 /* nssl0091.jpg */; };
+		A1423E012B210C4B00418A10 /* nssl0045.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1423DF72B210C4B00418A10 /* nssl0045.jpg */; };
+		A1423E022B210C4B00418A10 /* nssl0051.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1423DF82B210C4B00418A10 /* nssl0051.jpg */; };
+		A1423E032B210C4B00418A10 /* nssl0041.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1423DF92B210C4B00418A10 /* nssl0041.jpg */; };
+		A1423E042B210C4B00418A10 /* nssl0042.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1423DFA2B210C4B00418A10 /* nssl0042.jpg */; };
+		A1423E052B210C4B00418A10 /* nssl0043.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1423DFB2B210C4B00418A10 /* nssl0043.jpg */; };
+		A1423E062B210C4B00418A10 /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1423DFC2B210C4B00418A10 /* nssl0033.jpg */; };
+		A1423E072B210C4B00418A10 /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1423DFD2B210C4B00418A10 /* nssl0034.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		A1423DD32B2102DA00418A10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1423DD62B2102DA00418A10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1423DD82B2102DA00418A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1423DF42B210C4B00418A10 /* nssl0049.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0049.jpg; sourceTree = "<group>"; };
+		A1423DF52B210C4B00418A10 /* nssl0046.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0046.jpg; sourceTree = "<group>"; };
+		A1423DF62B210C4B00418A10 /* nssl0091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0091.jpg; sourceTree = "<group>"; };
+		A1423DF72B210C4B00418A10 /* nssl0045.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0045.jpg; sourceTree = "<group>"; };
+		A1423DF82B210C4B00418A10 /* nssl0051.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0051.jpg; sourceTree = "<group>"; };
+		A1423DF92B210C4B00418A10 /* nssl0041.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0041.jpg; sourceTree = "<group>"; };
+		A1423DFA2B210C4B00418A10 /* nssl0042.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0042.jpg; sourceTree = "<group>"; };
+		A1423DFB2B210C4B00418A10 /* nssl0043.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0043.jpg; sourceTree = "<group>"; };
+		A1423DFC2B210C4B00418A10 /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpg; sourceTree = "<group>"; };
+		A1423DFD2B210C4B00418A10 /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +83,27 @@
 				A1423DD32B2102DA00418A10 /* Assets.xcassets */,
 				A1423DD52B2102DA00418A10 /* LaunchScreen.storyboard */,
 				A1423DD82B2102DA00418A10 /* Info.plist */,
+				A1423DF32B210C4B00418A10 /* Content */,
 			);
 			path = "Storm Viewer";
+			sourceTree = "<group>";
+		};
+		A1423DF32B210C4B00418A10 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1423DF42B210C4B00418A10 /* nssl0049.jpg */,
+				A1423DF52B210C4B00418A10 /* nssl0046.jpg */,
+				A1423DF62B210C4B00418A10 /* nssl0091.jpg */,
+				A1423DF72B210C4B00418A10 /* nssl0045.jpg */,
+				A1423DF82B210C4B00418A10 /* nssl0051.jpg */,
+				A1423DF92B210C4B00418A10 /* nssl0041.jpg */,
+				A1423DFA2B210C4B00418A10 /* nssl0042.jpg */,
+				A1423DFB2B210C4B00418A10 /* nssl0043.jpg */,
+				A1423DFC2B210C4B00418A10 /* nssl0033.jpg */,
+				A1423DFD2B210C4B00418A10 /* nssl0034.jpg */,
+			);
+			name = Content;
+			path = "../../../../../../Desktop/HackingWithSwift-main/Classic/project1-files/Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +164,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1423DFF2B210C4B00418A10 /* nssl0046.jpg in Resources */,
+				A1423E062B210C4B00418A10 /* nssl0033.jpg in Resources */,
+				A1423E022B210C4B00418A10 /* nssl0051.jpg in Resources */,
+				A1423E002B210C4B00418A10 /* nssl0091.jpg in Resources */,
+				A1423E052B210C4B00418A10 /* nssl0043.jpg in Resources */,
+				A1423E072B210C4B00418A10 /* nssl0034.jpg in Resources */,
+				A1423DFE2B210C4B00418A10 /* nssl0049.jpg in Resources */,
+				A1423E032B210C4B00418A10 /* nssl0041.jpg in Resources */,
+				A1423E042B210C4B00418A10 /* nssl0042.jpg in Resources */,
 				A1423DD72B2102DA00418A10 /* LaunchScreen.storyboard in Resources */,
 				A1423DD42B2102DA00418A10 /* Assets.xcassets in Resources */,
+				A1423E012B210C4B00418A10 /* nssl0045.jpg in Resources */,
 				A1423DD22B2102D900418A10 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
