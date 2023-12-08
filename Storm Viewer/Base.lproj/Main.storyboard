@@ -3,6 +3,7 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -36,10 +37,39 @@
             </objects>
             <point key="canvasLocation" x="1321.3740458015266" y="-81.690140845070431"/>
         </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="f0g-0y-v1C">
+            <objects>
+                <viewController storyboardIdentifier="Detail" id="xeJ-i6-2IZ" customClass="DetailViewController" customModule="Storm_Viewer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PQD-7W-eHD">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3WV-PQ-3Wa">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="UCB-p2-b5g"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="3WV-PQ-3Wa" secondAttribute="bottom" id="G2Q-bx-k84"/>
+                            <constraint firstItem="3WV-PQ-3Wa" firstAttribute="top" secondItem="PQD-7W-eHD" secondAttribute="top" id="UoF-F1-LNW"/>
+                            <constraint firstItem="3WV-PQ-3Wa" firstAttribute="leading" secondItem="UCB-p2-b5g" secondAttribute="leading" id="WsO-L5-8Fm"/>
+                            <constraint firstItem="3WV-PQ-3Wa" firstAttribute="trailing" secondItem="UCB-p2-b5g" secondAttribute="trailing" id="jRP-xs-bx8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="3WV-PQ-3Wa" id="C3l-jR-ByN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jvb-L4-fe1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2165.6488549618321" y="-81.690140845070431"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="I49-8O-Tlt">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Y2K-KY-ewY" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" hidesBarsOnTap="YES" id="Y2K-KY-ewY" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="KEg-yR-RVh">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
